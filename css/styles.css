@@ -74,9 +74,11 @@ ul {
         display: flex;
         align-items: center;
         gap: 40px;
+        padding: 24px 0;
 }
 
 .studio {
+
         padding: 24px 0;
         font-family: "Roboto", sans-serif;
         color: #2e2f42;
@@ -100,7 +102,7 @@ ul {
 
 .contact {
 
-
+       
 
         font-family: "Roboto", sans-serif;
         font-weight: 400;
