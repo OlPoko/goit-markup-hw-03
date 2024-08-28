@@ -76,8 +76,8 @@ ul {
 }
 
 .studio {
-    padding: 24px 0;
-    font-family: "Roboto", sans-serif;
+        padding: 24px 0;
+        font-family: "Roboto", sans-serif;
         color: #2e2f42;
         font-weight: 500;
         font-size: 16px;
@@ -123,6 +123,11 @@ ul {
     color: #404bbf;
 }
 
+.address-contact {
+    display: flex;
+    gap: 40px;
+
+}
 
 
 .section-main {
