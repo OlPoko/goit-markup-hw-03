@@ -30,11 +30,7 @@ ul {
     
     }
 
-.logotype {
-        margin-right: 76px;
-        width: 115px;
-        height: 24px;
-       }     
+
 
 .navigatormenu {
         display: flex;
@@ -42,7 +38,8 @@ ul {
         padding: 24px 0;
 }
 
-.logo {
+.logo { 
+        margin-right: 76px;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -56,8 +53,9 @@ ul {
         
 }
 
-.wslogo{
-        font-family: "Raleway", sans-serif;
+.wslogo{    
+            margin-right: 76px;
+            font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
             text-decoration: none;
