@@ -16,30 +16,31 @@ ul {
     
 .container {
         display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+
 }
 
 .navhead {
         display: flex;
         align-items: center;
-
-        width: 1158px;
         height: 72px;
         box-sizing: border-box;
-        margin: 0 auto;
-        padding: 0 15px;
+       
     }
 
 .logotype {
+        margin-right: 76px;
         width: 115px;
         height: 24px;
-        margin-right: 76px;
        } 
 
 
 
 
 .logo {
-    font-family: "Raleway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         text-decoration: none;
@@ -71,9 +72,11 @@ ul {
         height: 24px;
         display: flex;
         align-items: center;
+        gap: 40px;
 }
 
 .studio {
+    padding: 24px 0;
     font-family: "Roboto", sans-serif;
         color: #2e2f42;
         font-weight: 500;
@@ -95,6 +98,8 @@ ul {
 }
 
 .contact {
+
+
 
         font-family: "Roboto", sans-serif;
         font-weight: 400;
