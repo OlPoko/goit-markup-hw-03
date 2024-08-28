@@ -28,17 +28,19 @@ ul {
         height: 72px;
         box-sizing: border-box;
     
+    }
+
 .logotype {
         margin-right: 76px;
         width: 115px;
         height: 24px;
        }     
-       
-    }
 
-
-
-
+.navigatormenu {
+        display: flex;
+        gap: 40px;    
+        padding: 24px 0;
+}
 
 .logo {
         font-family: "Raleway", sans-serif;
