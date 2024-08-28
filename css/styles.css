@@ -6,15 +6,22 @@ body {
     background-color:  #FFFFFF;
 }
 
+.wshead {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 ul {
     list-style-type: none;
 }
     
 .container {
 
+.navhead {
+        display: flex;
+        align-items: center;
+
         width: 1158px;
         height: 72px;
-        display: flex;
         box-sizing: border-box;
         margin: 0 auto;
         padding: 0 15px;
@@ -22,7 +29,10 @@ ul {
 .logotype {
         width: 115px;
         height: 24px;
-        justify-content: space-between;
+        margin-right: 76px;
+}
+
+       
 
 }
 
@@ -57,13 +67,12 @@ ul {
 .navigation {
         width: 261px;
         height: 24px;
-        justify-content: space-between;
         display: flex;
         align-items: center;
 
 }
 
-.sudio {
+.studio {
     font-family: "Roboto", sans-serif;
         color: #2e2f42;
         font-weight: 500;
@@ -76,16 +85,16 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.sudio:hover {
+.studio:hover {
     color: #404bbf;
 }
 
-.sudio:focus {
+.studio:focus {
     color: #404bbf;
 }
 
 .contact {
-    font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         font-style: normal;
@@ -100,8 +109,7 @@ ul {
 
 .address-contact {
     display: flex;
-    font-style: normal;
-   
+    font-style: normal;  
 }
 
 .contact:hover {
