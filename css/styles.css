@@ -227,7 +227,9 @@ ul {
 }
 
 .advantages {
-       
+        
+        width: calc((100% - 72px) / 4);
+
         margin-bottom: 8px;
 
         font-family: "Roboto", sans-serif;
@@ -386,7 +388,7 @@ ul {
 }
 
 .footdescr {
-    
+
         max-width: 264px;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -399,6 +401,7 @@ ul {
 }
 
 .wslogo-foot {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
