@@ -336,7 +336,7 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
 }
-.portimage {
+.potfimage {
     width: calc((100% - 48px) / 3);
 }
 
