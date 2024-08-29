@@ -318,8 +318,30 @@ ul {
         color: #434455;
 }
 
+.portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+.portf-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portimage {
+    width: calc((100% - 48px) / 3);
+}
+
+.potfname {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .team-portf {
-    font-family: "Roboto", sans-serif;
+        margin-bottom: 72px;
+
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
     
@@ -332,6 +354,7 @@ ul {
 }
 
 .portf {
+    margin-bottom: 8px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
