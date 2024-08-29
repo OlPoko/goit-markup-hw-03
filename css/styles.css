@@ -27,9 +27,12 @@ ul {
         padding: 0 15px;
         }
 
+                .head-container{
+                    display: flex;
+                }
 .navhead {
 
-        display: flex;
+       
         align-items: center;
         height: 72px;
         box-sizing: border-box;
