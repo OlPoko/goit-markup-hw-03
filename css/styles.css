@@ -21,7 +21,7 @@ ul {
  
 
 .container {
-        display: flex;
+       
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
@@ -336,7 +336,8 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
 }
-.potfimage {
+
+.portfimage {
     width: calc((100% - 48px) / 3);
 }
 
