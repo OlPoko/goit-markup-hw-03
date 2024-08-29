@@ -403,8 +403,28 @@ ul {
         color: #f4f4fd;
 }
 
+.logofoot  {
+
+     display: inline-block;
+     margin-bottom: 16px;
+     margin-right: 76px;
+
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     text-decoration: none;
+
+     /* line-height: 21px; */
+     line-height: 117%;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+
+ }
+
+
 .wslogo-foot {
-    
+
     margin-bottom: 16px;
     display: inline-block;
     font-family: "Raleway", sans-serif;
