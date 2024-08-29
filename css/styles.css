@@ -27,19 +27,19 @@ ul {
         padding: 0 15px;
         }
 
-                .head-container{
+                .head-container {
                     display: flex;
+                    width: 1158px;
+                    margin: 0;
+                    padding: 0 15px;
                 }
+
 .navhead {
 
-       
         align-items: center;
         height: 72px;
         box-sizing: border-box;
-        width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
-    
+  
     }
 
 
