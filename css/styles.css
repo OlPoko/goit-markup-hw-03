@@ -191,6 +191,10 @@ ul {
     cursor: pointer;
 }
 
+.benefits {
+    padding: 120px 0;
+}
+
 .benefits-list {
     display: flex;
     gap: 24px;
@@ -210,9 +214,13 @@ ul {
     overflow: hidden;
 }
 
+.firstelement {
+         width: calc((100% - 72px) / 4);
+}
+
 .advantages {
        
-        width: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
 
         font-family: "Roboto", sans-serif;
         font-weight: 500;
