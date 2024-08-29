@@ -14,9 +14,15 @@ ul {
     list-style-type: none;
 }
     
-
+.container {
+        display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
 
 .navhead {
+
         display: flex;
         align-items: center;
         height: 72px;
@@ -152,13 +158,16 @@ ul {
 }
 
 .butt {
-        margin: auto;
+        margin: auto 0;
+        display: block;
+        min-width: 169px;
+        height: 56px;
         border: none;
-        border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
+        text-align: center;
 
+        border-radius: 4px;
+        padding: 16px 32px;
+            
         
         background: #4D5AE5;
         font-family: "Roboto", sans-serif;
@@ -168,7 +177,8 @@ ul {
             /* line-height: 24px; */
             line-height: 150%;
             letter-spacing: 0.04em;
-            color: #fff;       
+            color: #fff;    
+
 } 
 
 .butt:hover {
