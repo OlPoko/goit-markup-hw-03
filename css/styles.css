@@ -191,9 +191,30 @@ ul {
     cursor: pointer;
 }
 
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .advantages {
-    font-family: "Roboto", sans-serif;
+       
+        width: calc((100% - 72px) / 4);
+
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         color: #2e2f42;
@@ -205,6 +226,8 @@ ul {
 }
 
 .descr {
+    margin-bottom: 8px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
