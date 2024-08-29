@@ -19,12 +19,12 @@ ul {
         padding-left: 0;
 }
 
-.container .head-container {
-    width: 1158px;
+.head-container {
+        display: flex;
+        width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
-        display: flex;
-
+        
 }
 
 .container {
@@ -47,7 +47,7 @@ ul {
 .logo { 
         
         display: inline-block;
-        margin-bottom: 16px;
+        
         margin-right: 76px;
        
         font-family: "Raleway", sans-serif;
@@ -139,8 +139,8 @@ ul {
 .address-contact {
     display: flex;
     margin-left: 332px;
-   
     gap: 40px;
+    margin-top: 24px;
 }
 
 
