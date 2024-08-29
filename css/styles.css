@@ -14,9 +14,12 @@ img {
 }
 
 ul {
-    list-style-type: none;
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
 }
-    
+ 
+
 .container {
         display: flex;
         width: 1158px;
@@ -85,6 +88,7 @@ ul {
         gap: 40px;
         padding: 24px 0;
 }
+
 
 .studio {
 
@@ -163,7 +167,8 @@ ul {
 }
 
 .butt {
-        margin: auto 0;
+        margin: auto;
+        margin-top: 48px;
         display: block;
         min-width: 169px;
         height: 56px;
