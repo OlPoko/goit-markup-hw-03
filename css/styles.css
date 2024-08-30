@@ -130,9 +130,12 @@ ul {
 
 .head-container {
   display: flex;
+justify-content: center;
+    align-items: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 .container {
@@ -179,10 +182,9 @@ ul {
 }
 
 .navigation {
+
   display: flex;
-  align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .studio {
@@ -227,20 +229,14 @@ ul {
   color: #404bbf;
 }
 
-.phonemail {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 332px;
- 
-
-}
 
 .address-contact {
-
-  display: flex;
-  gap: 40px;
-  
+        
+        display: flex;
+        gap: 40px;
+        margin-left: 332px;
+        
+        
   
 }
 
