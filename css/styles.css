@@ -335,7 +335,6 @@ justify-content: center;
 }
 
 .descr {
-  margin-bottom: 8px;
 
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -474,7 +473,7 @@ justify-content: center;
   background: #2e2f42;
 }
 
-.footdescr {
+.footdescr { 
   max-width: 264px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -487,10 +486,11 @@ justify-content: center;
 }
 
 .logofoot {
-  display: inline-block;
-  margin-bottom: 16px;
-  margin-right: 76px;
 
+ 
+  display: inline-block;
+  margin-right: 76px;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -504,8 +504,10 @@ justify-content: center;
 }
 
 .wslogo-foot {
-  margin-bottom: 16px;
+
   display: inline-block;
+  padding: 1.5px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -516,3 +518,4 @@ justify-content: center;
   text-transform: uppercase;
   color: #f4f4fd;
 }
+  
